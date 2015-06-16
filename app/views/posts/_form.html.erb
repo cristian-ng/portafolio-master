@@ -9,12 +9,17 @@
       </ul>
     </div>
   <% end %>
- 
+  <br>
+<br>
+  <br>
+  <%= f.label :image, "image" %>
+  <%= f.file_field :image %>
   <%= f.label :title %><br>
   <%= f.text_field :title %><br>
   <br>
   <%= f.label :body %><br>
   <%= f.text_field :body %><br>
   <br>
+
   <%= f.submit %>
 <% end %>
